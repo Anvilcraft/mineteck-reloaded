@@ -1,0 +1,39 @@
+kind: pipeline
+type: docker
+steps:
+  - name: release
+    image: debian:bullseye
+    commands:
+      - apt update
+      - apt install -y
+          curl
+          jq
+          libarchive-dev
+          libcurl4-openssl-dev
+          pkgconf
+          xz-utils
+      - mkdir -p zig
+      - cd zig
+      # this always downloads the latest zig
+      - curl -o zig.tar.xz $(curl 'https://ziglang.org/download/index.json' | jq -r '.master."x86_64-linux".tarball')
+      - tar xf zig.tar.xz
+      - mv zig-linux*/* .
+      - export PATH="$PATH:$(pwd)"
+      - cd ..
+      - ./build.zig
+
+  - name: publish
+    image: plugins/gitea-release
+    settings:
+      base_url: https://git.tilera.org
+      api_key:
+        from_secret: gitea_token
+      note: CHANGELOG.md
+      title: tag-${DRONE_TAG}
+      files:
+        - build/mineteck-reloaded-*.zip
+
+    when:
+      event: tag
+    depends_on:
+      - release

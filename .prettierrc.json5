@@ -1,0 +1,6 @@
+// Formatter configuration for the KubeJS scripts.
+{
+    tabWidth: 4,
+    trailingComma: "always",
+}
+
