@@ -20,7 +20,7 @@ steps:
       - mv zig-linux*/* .
       - export PATH="$PATH:$(pwd)"
       - cd ..
-      - ./build.zig
+      - BUILD_SIMPLE_OUTPUT=1 ./build.zig
 
   - name: publish
     image: plugins/gitea-release

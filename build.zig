@@ -11,6 +11,8 @@ const c = @cImport({
 const settings = @import("settings.zig");
 
 pub fn main() !void {
+    const simple_output = std.os.getenv("BUILD_SIMPLE_OUTPUT") != null;
+
     // used to buffer whatever
     var buf: [512]u8 = undefined;
     try std.fs.cwd().deleteTree(settings.build_dir);
@@ -49,10 +51,17 @@ pub fn main() !void {
     while (try walker.next()) |e| {
         switch (e.kind) {
             .Directory => {
-                stdout.print(
-                    "Writing Directory\t\x1b[34m{s}/\x1b[0m\n",
-                    .{e.path},
-                ) catch {};
+                if (simple_output) {
+                    stdout.print(
+                        "Writing Directory\t{s}\n",
+                        .{e.path},
+                    ) catch {};
+                } else {
+                    stdout.print(
+                        "Writing Directory\t\x1b[34m{s}/\x1b[0m\n",
+                        .{e.path},
+                    ) catch {};
+                }
                 const path = try std.mem.concatWithSentinel(
                     std.heap.c_allocator,
                     u8,
@@ -63,7 +72,11 @@ pub fn main() !void {
                 try archiveCreateDir(zip.?, entry.?, path.ptr);
             },
             .File => {
-                stdout.print("Writing File\t\t\x1b[34m{s}\x1b[0m\n", .{e.path}) catch {};
+                if (simple_output) {
+                    stdout.print("Writing File\t\t{s}\n", .{e.path}) catch {};
+                } else {
+                    stdout.print("Writing File\t\t\x1b[34m{s}\x1b[0m\n", .{e.path}) catch {};
+                }
                 const path = try std.mem.concatWithSentinel(
                     std.heap.c_allocator,
                     u8,
@@ -103,7 +116,7 @@ pub fn main() !void {
         return err;
     };
 
-    downloadMods(mods.items, zip.?, entry.?) catch |err| {
+    downloadMods(mods.items, zip.?, entry.?, simple_output) catch |err| {
         std.log.err("Error downloading mods", .{});
         return err;
     };
@@ -262,6 +275,57 @@ const CurlInfo = struct {
     index: usize,
     total: usize,
     mod_number_width: usize,
+    simple_output: bool,
+
+    fn logStart(self: *CurlInfo) !void {
+        if (!self.simple_output)
+            return;
+
+        try std.io.getStdOut().writer().print(
+            "[{d:[3]}/{d}] {s} Downloading...\n",
+            .{ self.index, self.total, self.filename, self.mod_number_width },
+        );
+    }
+
+    fn logProgress(self: *CurlInfo, percentage: u8) !void {
+        if (self.simple_output)
+            return;
+
+        try std.io.getStdOut().writer().print(
+            "\r\x1b[34m[{d:[4]}/{d}] \x1b[97m{s} \x1b[32m{}%",
+            .{
+                self.index,
+                self.total,
+                self.filename,
+                percentage,
+                self.mod_number_width,
+            },
+        );
+    }
+
+    fn logZipping(self: *CurlInfo) !void {
+        if (!self.simple_output) {
+            try std.io.getStdOut().writer().print(
+                "\r\x1b[34m[{d:[3]}/{d}] \x1b[97m{s} \x1b[31mZipping...",
+                .{ self.index, self.total, self.filename, self.mod_number_width },
+            );
+        } else {
+            try std.io.getStdOut().writer().print(
+                "[{d:[3]}/{d}] {s} Zipping...\n",
+                .{ self.index, self.total, self.filename, self.mod_number_width },
+            );
+        }
+    }
+
+    fn logDone(self: *CurlInfo) !void {
+        if (self.simple_output)
+            return;
+
+        std.io.getStdOut().writer().print(
+            "\x1b[2K\r\x1b[34m[{d:[3]}/{d}] \x1b[97m{s}\n",
+            .{ self.index, self.total, self.filename, self.mod_number_width },
+        ) catch {};
+    }
 };
 
 fn curlInfoCallback(
@@ -273,15 +337,8 @@ fn curlInfoCallback(
 ) callconv(.C) usize {
     _ = ultotal;
     _ = ulnow;
-    std.io.getStdOut().writer().print(
-        "\r\x1b[34m[{d:[4]}/{d}] \x1b[97m{s} \x1b[32m{}%",
-        .{
-            info.index,
-            info.total,
-            info.filename,
-            if (dltotal != 0) @divTrunc(dlnow * 100, dltotal) else 0,
-            info.mod_number_width,
-        },
+    info.logProgress(
+        @intCast(u8, if (dltotal != 0) @divTrunc(dlnow * 100, dltotal) else 0),
     ) catch {};
     return 0;
 }
@@ -290,6 +347,7 @@ fn downloadMods(
     mods: []const []const u8,
     zip: *c.archive,
     entry: *c.archive_entry,
+    simple_output: bool,
 ) !void {
     var curl = c.curl_easy_init();
     if (curl == null)
@@ -319,12 +377,18 @@ fn downloadMods(
         .index = 0,
         .total = mods.len,
         .mod_number_width = mod_number_width,
+        .simple_output = simple_output,
     };
     try handleCurlErr(c.curl_easy_setopt(curl, c.CURLOPT_XFERINFODATA, &info));
     // hide cursor
-    std.io.getStdOut().writeAll("\x1b[?25l") catch {};
+    if (!simple_output) {
+        std.io.getStdOut().writeAll("\x1b[?25l") catch {};
+    }
     // show cursor & reset
-    defer std.io.getStdOut().writeAll("\x1b[?25h\x1b[0\n") catch {};
+    defer if (!simple_output) {
+        std.io.getStdOut().writeAll("\x1b[?25h\x1b[0\n") catch {};
+    };
+
     for (mods) |mod| {
         info.index += 1;
 
@@ -368,12 +432,12 @@ fn downloadMods(
             c.CURLOPT_URL,
             mod_cstr.ptr,
         ));
+
+        try info.logStart();
+
         try handleCurlErr(c.curl_easy_perform(curl));
 
-        std.io.getStdOut().writer().print(
-            "\r\x1b[34m[{d:[3]}/{d}] \x1b[97m{s} \x1b[31mZipping...",
-            .{ info.index, info.total, info.filename, mod_number_width },
-        ) catch {};
+        try info.logZipping();
 
         var archive_path = try std.mem.concatWithSentinel(
             std.heap.c_allocator,
@@ -387,10 +451,7 @@ fn downloadMods(
         c.archive_entry_set_size(entry, @intCast(i64, mod_buf.items.len));
         try handleArchiveErr(c.archive_write_header(zip, entry), zip);
         try writer.writeAll(mod_buf.items);
-        std.io.getStdOut().writer().print(
-            "\x1b[2K\r\x1b[34m[{d:[3]}/{d}] \x1b[97m{s}\n",
-            .{ info.index, info.total, info.filename, mod_number_width },
-        ) catch {};
+        try info.logDone();
     }
 }
 
