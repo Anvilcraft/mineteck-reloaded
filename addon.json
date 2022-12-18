@@ -1086,7 +1086,7 @@
       {
         "qualifier": "mod-basiccomponents",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.0/basiccomponents-2.0.0.jar"
+          "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.1/basiccomponents-2.0.1.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1116,7 +1116,7 @@
       {
         "qualifier": "mod-assemblyline",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.0/assemblyline-1.0.0.jar"
+          "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.1/assemblyline-1.0.1.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1161,7 +1161,7 @@
       {
         "qualifier": "mod-icbm",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.1/icbm-1.0.1.jar"
+          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.2/icbm-1.0.2.jar"
         ],
         "flags": {
           "both": ["required"]

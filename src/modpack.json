@@ -1007,7 +1007,7 @@
                 {
                     "id": "mod-basiccomponents",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.0/basiccomponents-2.0.0.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.1/basiccomponents-2.0.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1035,7 +1035,7 @@
                 {
                     "id": "mod-assemblyline",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.0/assemblyline-1.0.0.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.1/assemblyline-1.0.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1077,7 +1077,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.1/icbm-1.0.1.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.2/icbm-1.0.2.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
