@@ -130,7 +130,7 @@
       {
         "qualifier": "mod-apm",
         "link": [
-          "https://git.tilera.org/api/packages/Anvilcraft/generic/apm2/2.0.1A/AdvPowerMan-2.0.1A.jar"
+          "https://git.tilera.org/api/packages/Anvilcraft/generic/apm2/2.1.0/AdvPowerMan-2.1.0.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -385,7 +385,7 @@
       {
         "qualifier": "mod-ee3",
         "link": [
-          "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/1.7.10-0.3.0.0/EquivalentExchange3-1.7.10-0.3.0.0.jar"
+          "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.0/EquivalentExchange3-1.7.10-0.4.0.0.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1177,6 +1177,21 @@
         "qualifier": "mod-auracore",
         "link": [
           "https://maven.tilera.xyz/dev/tilera/auracore/1.1.2/auracore-1.1.2.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
+        "qualifier": "mod-pocketcraft",
+        "link": [
+          "https://maven.tilera.xyz/ley/modding/pocketcraft/1.0/pocketcraft-1.0.jar"
         ],
         "flags": {
           "both": ["required"]
