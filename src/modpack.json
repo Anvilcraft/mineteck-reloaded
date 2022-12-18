@@ -1,1225 +1,1157 @@
 {
-    "addonscript": {
-      "version": 2
-    },
+    "asversion": 1,
+    "type": "modpack",
     "id": "mineteck-reloaded",
-    "namespace": "net.anvilcraft",
-    "version": "0.1.0",
-    "flags": {
-      "both": ["required", "instance"]
-    },
-    "files": [
-      {
-        "qualifier": "overrides",
-        "link": ["./overrides"],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "extract",
-            "args": ["./"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-bspkrscore",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2227/503/[1.7.10]bspkrsCore-universal-6.16.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods/1.7.10"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-baubles",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2224/857/Baubles-1.7.10-1.0.1.10.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods/1.7.10"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-fmp",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods/1.7.10"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-damageindicators",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2692/129/[1.7.10]DamageIndicatorsMod-3.3.2.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-treecapitator",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2218/771/[1.7.10]Treecapitator-universal-2.0.4.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-additionalpipes",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2614/309/additionalpipes-4.7.7.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-advanced-machines",
-        "link": [
-          "https://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-apm",
-        "link": [
-          "https://git.tilera.org/api/packages/Anvilcraft/generic/apm2/2.1.0/AdvPowerMan-2.1.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ars",
-        "link": [
-          "https://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-aether",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3280/117/aether-1.7.10-v1.1.2.2.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-animationapi",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2221/721/AnimationAPI-1.7.10-1.2.4.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-appeng",
-        "link": [
-          "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-18/appliedenergistics2-rv3-beta-18.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-aromacore",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-backpack",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2268/883/backpack-2.0.1-1.7.x.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-bibliocraft",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2423/369/BiblioCraft[v1.11.7][MC1.7.10].jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-buildcraft",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3538/651/buildcraft-7.1.24.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ccc",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3293/859/CodeChickenCore-1.7.10-1.0.7.48-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-cofhcore",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2388/750/CoFHCore-[1.7.10]3.1.4-329.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-compactsolars",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2230/918/CompactSolars-1.7.10-4.4.39.315-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-computercraft",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/ComputerCraft-1.75-rpinterop.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-contenttweaker",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2266/759/ContentTweaker-1.0.5.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-crafttweaker",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2838/720/CraftTweaker-1.7.10-3.1.0-legacy.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-dynamicdynamos",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2281/660/DynamicDynamos-0.2.1.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-enderstorage",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2262/92/EnderStorage-1.7.10-1.4.7.37-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ee3",
-        "link": [
-          "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.0/EquivalentExchange3-1.7.10-0.4.0.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-factorization",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2990/432/Factorization-1.7.10-0.8.108+(Unofficial).jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-fluxed-core",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2288/74/Fluxed-Core-MC1710-1.0.9.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-forestry",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2333/823/forestry_1.7.10-4.2.16.64.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ic2nc",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3802/63/IC2NuclearControl-2.4.5a.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ichunutil",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2338/148/iChunUtil-4.2.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-immibis-core",
-        "link": ["https://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar"],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ic2",
-        "link": [
-          "https://mediafilez.forgecdn.net/files/4074/287/IC2Classic-1.7.10-1.2.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-inventorytweaks",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2210/792/InventoryTweaks-1.59-dev-152.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-ironchest",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2230/908/ironchest-1.7.10-6.0.62.742-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-logisticspipes",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2427/862/logisticspipes-0.9.3.132.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mekanism",
-        "link": [
-          "https://git.tilera.org/api/packages/tilera/generic/mekanism/1.7.10-9.10.16/Mekanism-1.7.10-Community-Edition-1.7.10-9.10.16.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mfr",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2366/149/MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-modtweaker",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2313/730/ModTweaker2-0.9.6.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mps",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2666/986/ModularPowersuits-1.7.10-0.11.1.117.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mutantcreatures",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2250/71/MutantCreatures-1.7.10-1.4.9.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mystcraft",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-netherores",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2369/671/NetherOres-[1.7.10]2.3.2B1-25.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-nei",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-portalgun",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2266/997/PortalGun-4.0.0-beta-6.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-powerconverters",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2263/111/PowerConverters-1.7.10-2.11.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-projecte",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2340/786/ProjectE-1.7.10-PE1.10.1.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-railcraft",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2458/987/Railcraft_1.7.10-9.12.2.1.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-resourceloader",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2292/845/ResourceLoader-MC1.7.10-1.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-secretrooms",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2511/803/secretroomsmod-1.7.10-4.7.1.413.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-stevescarts",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2230/425/StevesCarts2.0.0.b18.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-thaumcraft",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-tcnei",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-thermaldynamics",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2388/756/ThermalDynamics-[1.7.10]1.2.1-172.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-thermalexpansion",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2388/758/ThermalExpansion-[1.7.10]4.1.5-248.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-thermalfoundation",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2388/752/ThermalFoundation-[1.7.10]1.2.6-118.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-twilightforest",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3039/937/twilightforest-1.7.10-2.3.8.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-waila",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2230/518/Waila-1.5.10_1.7.10.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-weaponmod",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2216/459/weaponmod-1.14.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-wr-cbe",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/2233/235/WR-CBE-1.7.10-1.4.1.9-universal.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-numina",
-        "link": [
-          "https://mediafiles.forgecdn.net/files/3040/151/Numina-0.4.1.0-kmecpp-3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-tubestuff",
-        "link": ["https://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar"],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-gravisuite",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/GraviSuite_1.7.10_2.0.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-minechem",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/MineChem%20Mod%201.7.10.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-playerapi",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/PlayerAPI-1.7.10-1.4.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-redpower",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/RedPower-2.0pr7-dirty.1.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-powercraft",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/powercraft-0.1.0B.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-projectbench",
-        "link": [
-          "https://mediafilez.forgecdn.net/files/2239/653/ProjectBench-Update-1.7.10-0.5.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-voicechat",
-        "link": [
-          "https://mediafilez.forgecdn.net/files/2301/492/GlibysVC-1.7.10-0.6.2a.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-cwg",
-        "link": [
-          "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.2.0/cwg-1.2.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mixins",
-        "link": [
-          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00gasstation-mc1.7.10-0.3.5.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-universalelectricity",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.0/universalelectricity-5.1.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-basiccomponents",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.0/basiccomponents-2.0.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-electricexpansion",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.0/electricexpansion-1.0.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-assemblyline",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.0/assemblyline-1.0.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-atomicscience",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.0/atomicscience-1.1.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-mffs",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/mffs/1.0.3/mffs-1.0.3.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-icbm",
-        "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.1/icbm-1.0.1.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-auracore",
-        "link": [
-          "https://maven.tilera.xyz/dev/tilera/auracore/1.1.2/auracore-1.1.2.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
-        "qualifier": "mod-pocketcraft",
-        "link": [
-          "https://maven.tilera.xyz/ley/modding/pocketcraft/1.0/pocketcraft-1.0.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      }
+    "versions": [
+        {
+            "version": "0.1.0",
+            "versionid": -1,
+            "mcversion": [
+                "1.7.10"
+            ],
+            "relations": [
+                {
+                    "id": "mod-bspkrscore",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2227/503/[1.7.10]bspkrsCore-universal-6.16.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-baubles",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2224/857/Baubles-1.7.10-1.0.1.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-fmp",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2242/993/ForgeMultipart-1.7.10-1.2.0.345-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-damageindicators",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2692/129/[1.7.10]DamageIndicatorsMod-3.3.2.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-treecapitator",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2218/771/[1.7.10]Treecapitator-universal-2.0.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-additionalpipes",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2614/309/additionalpipes-4.7.7.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-advanced-machines",
+                    "file": {
+                        "link": "https://immibis.com/mcmoddl/files/advanced-machines-59.0.2.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-apm",
+                    "file": {
+                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/apm2/2.1.0/AdvPowerMan-2.1.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ars",
+                    "file": {
+                        "link": "https://immibis.com/mcmoddl/files/adv-repulsion-systems-59.0.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-aether",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3280/117/aether-1.7.10-v1.1.2.2.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-animationapi",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2221/721/AnimationAPI-1.7.10-1.2.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-appeng",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-18/appliedenergistics2-rv3-beta-18.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-aromacore",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2257/644/Aroma1997Core-1.7.10-1.0.2.16.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-backpack",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2268/883/backpack-2.0.1-1.7.x.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-bibliocraft",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2423/369/BiblioCraft[v1.11.7][MC1.7.10].jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-buildcraft",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3538/651/buildcraft-7.1.24.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ccc",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3293/859/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-cofhcore",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2388/750/CoFHCore-[1.7.10]3.1.4-329.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-compactsolars",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2230/918/CompactSolars-1.7.10-4.4.39.315-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-computercraft",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/ComputerCraft-1.75-rpinterop.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-contenttweaker",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2266/759/ContentTweaker-1.0.5.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-crafttweaker",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2838/720/CraftTweaker-1.7.10-3.1.0-legacy.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-dynamicdynamos",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2281/660/DynamicDynamos-0.2.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-enderstorage",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2262/92/EnderStorage-1.7.10-1.4.7.37-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ee3",
+                    "file": {
+                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.0/EquivalentExchange3-1.7.10-0.4.0.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-factorization",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2990/432/Factorization-1.7.10-0.8.108+(Unofficial).jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-fluxed-core",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2288/74/Fluxed-Core-MC1710-1.0.9.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-forestry",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2333/823/forestry_1.7.10-4.2.16.64.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ic2nc",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3802/63/IC2NuclearControl-2.4.5a.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ichunutil",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2338/148/iChunUtil-4.2.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-immibis-core",
+                    "file": {
+                        "link": "https://immibis.com/mcmoddl/files/immibis-core-59.1.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ic2",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/4074/287/IC2Classic-1.7.10-1.2.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-inventorytweaks",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2210/792/InventoryTweaks-1.59-dev-152.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-ironchest",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2230/908/ironchest-1.7.10-6.0.62.742-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-logisticspipes",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2427/862/logisticspipes-0.9.3.132.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mekanism",
+                    "file": {
+                        "link": "https://git.tilera.org/api/packages/tilera/generic/mekanism/1.7.10-9.11.0/Mekanism-1.7.10-Community-Edition-1.7.10-9.11.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mfr",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2366/149/MineFactoryReloaded-[1.7.10]2.8.2B1-201.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-modtweaker",
+                    "file": {
+                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/modtweaker/0.10.0/ModTweaker2-0.10.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mps",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2666/986/ModularPowersuits-1.7.10-0.11.1.117.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mutantcreatures",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2250/71/MutantCreatures-1.7.10-1.4.9.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mystcraft",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2417/42/mystcraft-1.7.10-0.12.3.04.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-netherores",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2369/671/NetherOres-[1.7.10]2.3.2B1-25.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-nei",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2302/312/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-portalgun",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2266/997/PortalGun-4.0.0-beta-6.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-powerconverters",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2263/111/PowerConverters-1.7.10-2.11.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-projecte",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2340/786/ProjectE-1.7.10-PE1.10.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-railcraft",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2458/987/Railcraft_1.7.10-9.12.2.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-resourceloader",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2292/845/ResourceLoader-MC1.7.10-1.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-secretrooms",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2511/803/secretroomsmod-1.7.10-4.7.1.413.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-stevescarts",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2230/425/StevesCarts2.0.0.b18.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-thaumcraft",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2227/552/Thaumcraft-1.7.10-4.2.3.5.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-tcnei",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2241/913/thaumcraftneiplugin-1.7.10-1.7a.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-thermaldynamics",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2388/756/ThermalDynamics-[1.7.10]1.2.1-172.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-thermalexpansion",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2388/758/ThermalExpansion-[1.7.10]4.1.5-248.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-thermalfoundation",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2388/752/ThermalFoundation-[1.7.10]1.2.6-118.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-twilightforest",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3039/937/twilightforest-1.7.10-2.3.8.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-waila",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2230/518/Waila-1.5.10_1.7.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-weaponmod",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2216/459/weaponmod-1.14.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-wr-cbe",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/2233/235/WR-CBE-1.7.10-1.4.1.9-universal.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-numina",
+                    "file": {
+                        "link": "https://mediafiles.forgecdn.net/files/3040/151/Numina-0.4.1.0-kmecpp-3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-tubestuff",
+                    "file": {
+                        "link": "https://immibis.com/mcmoddl/files/tubestuff-59.0.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-gravisuite",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/GraviSuite_1.7.10_2.0.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-minechem",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/MineChem%20Mod%201.7.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-playerapi",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/PlayerAPI-1.7.10-1.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-redpower",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/RedPower-2.0pr7-dirty.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-powercraft",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/powercraft-0.1.0B.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-projectbench",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2239/653/ProjectBench-Update-1.7.10-0.5.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-voicechat",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2301/492/GlibysVC-1.7.10-0.6.2a.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-cwg",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.2.0/cwg-1.2.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mixins",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00gasstation-mc1.7.10-0.3.5.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-universalelectricity",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.0/universalelectricity-5.1.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-basiccomponents",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/basiccomponents/2.0.0/basiccomponents-2.0.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-electricexpansion",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.0/electricexpansion-1.0.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-assemblyline",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.0/assemblyline-1.0.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-atomicscience",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.0/atomicscience-1.1.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mffs",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.3/mffs-1.0.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-icbm",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.1/icbm-1.0.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-auracore",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.1.2/auracore-1.1.2.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-pocketcraft",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/ley/modding/pocketcraft/1.0/pocketcraft-1.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "forge",
+                    "versions": "[1.7.10-10.13.4.1614-1.7.10]",
+                    "type": "modloader",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                }
+            ],
+            "files": [
+                {
+                    "id": "overrides",
+                    "installer": "internal.override",
+                    "link": "file://overrides"
+                }
+            ]
+        }
     ],
-    "relations": [
-      {
-        "id": "forge",
-        "namespace": "net.minecraftforge",
-        "version": "[1.7.10-10.13.4.1614-1.7.10]",
-        "flags": {
-          "both": ["required", "launch"]
-        },
-        "repositories": ["net.addonscript"]
-      }
-    ],
-    "repositories": [
-      {
-        "namespace": "net.addonscript",
-        "instances": ["https://api.addonscript.net"]
-      }
-    ]
-  }
-  
+    "meta": {
+        "name": "Mineteck Reloaded",
+        "contributors": [
+            {
+                "name": "tilera",
+                "roles": [
+                    "owner"
+                ]
+            },
+            {
+                "name": "LordMZTE",
+                "roles": [
+                    "author"
+                ]
+            }
+        ]
+    }
+}
