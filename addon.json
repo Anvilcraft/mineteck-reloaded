@@ -1146,7 +1146,7 @@
       {
         "qualifier": "mod-mffs",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/mffs/1.0.3/mffs-1.0.3.jar"
+          "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.4.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1161,7 +1161,7 @@
       {
         "qualifier": "mod-icbm",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.2/icbm-1.0.2.jar"
+          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.3.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1176,7 +1176,7 @@
       {
         "qualifier": "mod-auracore",
         "link": [
-          "https://maven.tilera.xyz/dev/tilera/auracore/1.1.2/auracore-1.1.2.jar"
+          "https://maven.tilera.xyz/dev/tilera/auracore/1.3.1/auracore-1.3.1.jar"
         ],
         "flags": {
           "both": ["required"]

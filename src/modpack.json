@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-mffs",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.3/mffs-1.0.3.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.4.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1077,7 +1077,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.2/icbm-1.0.2.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.3.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1091,7 +1091,7 @@
                 {
                     "id": "mod-auracore",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.1.2/auracore-1.1.2.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.3.1/auracore-1.3.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
