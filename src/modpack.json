@@ -909,7 +909,7 @@
                 {
                     "id": "mod-redpower",
                     "file": {
-                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/RedPower-2.0pr7-dirty.1.jar",
+                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr7-dirty/RedPower-2.0pr7-dirty.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -965,7 +965,7 @@
                 {
                     "id": "mod-cwg",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.2.0/cwg-1.2.0.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.3.0/cwg-1.3.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -993,7 +993,7 @@
                 {
                     "id": "mod-universalelectricity",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.0/universalelectricity-5.1.0.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.0/universalelectricity-5.1.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-mffs",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.4.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.5.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1077,7 +1077,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.3.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.4.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1106,6 +1106,34 @@
                     "id": "mod-pocketcraft",
                     "file": {
                         "link": "https://maven.tilera.xyz/ley/modding/pocketcraft/1.0/pocketcraft-1.0.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-liteloader",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00liteloader-1.7.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-voxelmap",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/mod_voxelMap_1.7.0b_for_1.7.10.litemod",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
