@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-mffs",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.5.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.5/mffs-1.0.5.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1077,7 +1077,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.4.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.4/icbm-1.0.4.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

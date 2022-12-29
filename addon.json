@@ -1148,7 +1148,7 @@
       {
         "qualifier": "mod-mffs",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/mffs/1.0.4/mffs-1.0.5.jar"
+          "https://maven.tilera.xyz/universalelectricity/mffs/1.0.5/mffs-1.0.5.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1163,7 +1163,7 @@
       {
         "qualifier": "mod-icbm",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.3/icbm-1.0.4.jar"
+          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.4/icbm-1.0.4.jar"
         ],
         "flags": {
           "both": ["required"]
