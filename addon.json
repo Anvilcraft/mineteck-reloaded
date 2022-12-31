@@ -1206,6 +1206,81 @@
         ]
       },
       {
+        "qualifier": "mod-dimanchor",
+        "link": [
+          "http://immibis.com/mcmoddl/files/dimensional-anchor-59.0.3.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
+        "qualifier": "mod-macroblocks",
+        "link": [
+          "http://immibis.com/mcmoddl/files/immibis-macroblocks-59.1.1.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
+        "qualifier": "mod-tinycarts",
+        "link": [
+          "http://immibis.com/mcmoddl/files/tinycarts-0.2.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
+        "qualifier": "mod-gravitygun",
+        "link": [
+          "https://mediafilez.forgecdn.net/files/2233/777/GravityGun-4.0.0-beta.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
+        "qualifier": "mod-soulshards",
+        "link": [
+          "https://mediafilez.forgecdn.net/files/2230/470/SoulShards-TOW-1.7.10-0.1-RC9-7.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
         "qualifier": "mod-liteloader",
         "link": [
           "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00liteloader-1.7.10.jar"

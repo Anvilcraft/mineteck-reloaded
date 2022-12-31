@@ -1117,6 +1117,76 @@
                     ]
                 },
                 {
+                    "id": "mod-dimanchor",
+                    "file": {
+                        "link": "http://immibis.com/mcmoddl/files/dimensional-anchor-59.0.3.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-macroblocks",
+                    "file": {
+                        "link": "http://immibis.com/mcmoddl/files/immibis-macroblocks-59.1.1.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-tinycarts",
+                    "file": {
+                        "link": "http://immibis.com/mcmoddl/files/tinycarts-0.2.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-gravitygun",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2233/777/GravityGun-4.0.0-beta.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-soulshards",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2230/470/SoulShards-TOW-1.7.10-0.1-RC9-7.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
                     "id": "mod-liteloader",
                     "file": {
                         "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00liteloader-1.7.10.jar",
