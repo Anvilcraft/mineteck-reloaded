@@ -1281,6 +1281,22 @@
         ]
       },
       {
+        "qualifier": "mod-matmos",
+        "link": [
+          "https://mediafilez.forgecdn.net/files/3968/676/matmos-1.7.10-35.4.7.jar"
+        ],
+        "flags": {
+          "client": ["required"],
+          "server": ["incompatible"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
         "qualifier": "mod-liteloader",
         "link": [
           "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00liteloader-1.7.10.jar"
