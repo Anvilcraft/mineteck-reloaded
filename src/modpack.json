@@ -1215,6 +1215,20 @@
                     ]
                 },
                 {
+                    "id": "sounds-portalgun",
+                    "file": {
+                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/PortalGunSounds.pak",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
                     "id": "forge",
                     "versions": "[1.7.10-10.13.4.1614-1.7.10]",
                     "type": "modloader",
