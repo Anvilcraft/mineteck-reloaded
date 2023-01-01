@@ -1281,6 +1281,21 @@
         ]
       },
       {
+        "qualifier": "mod-liquidxp",
+        "link": [
+          "http://immibis.com/mcmoddl/files/liquid-xp-59.0.2.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
         "qualifier": "mod-matmos",
         "link": [
           "https://mediafilez.forgecdn.net/files/3968/676/matmos-1.7.10-35.4.7.jar"
