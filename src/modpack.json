@@ -503,7 +503,7 @@
                 {
                     "id": "mod-mekanism",
                     "file": {
-                        "link": "https://git.tilera.org/api/packages/tilera/generic/mekanism/1.7.10-9.11.0/Mekanism-1.7.10-Community-Edition-1.7.10-9.11.0.jar",
+                        "link": "https://git.tilera.org/api/packages/tilera/generic/mekanism/1.7.10-9.11.1/Mekanism-1.7.10-Community-Edition-1.7.10-9.11.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
