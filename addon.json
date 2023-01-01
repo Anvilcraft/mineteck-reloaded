@@ -1296,6 +1296,21 @@
         ]
       },
       {
+        "qualifier": "mod-reliquary",
+        "link": [
+          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/Reliquary-1.7.10-1.2.1.483.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
         "qualifier": "mod-matmos",
         "link": [
           "https://mediafilez.forgecdn.net/files/3968/676/matmos-1.7.10-35.4.7.jar"
