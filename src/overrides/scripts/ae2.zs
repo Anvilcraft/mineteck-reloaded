@@ -59,5 +59,25 @@ furnace.addRecipe(logicProcessor, <contenttweaker:logic_processor_assembly>);
 furnace.addRecipe(calculationProcessor, <contenttweaker:calculation_processor_assembly>);
 furnace.addRecipe(engineeringProcessor, <contenttweaker:engineering_processor_assembly>);
 
-// remove inscriber
-recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
+// fluix
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:7>, [<ore:crystalNetherQuartz>, <ore:crystalCertusQuartz>, <ore:dustRedstone>]);
+recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:8> * 2, [<ore:dustNetherQuartz>, <ore:dustCertusQuartz>, <ore:dustRedstone>]);
+
+// AE1 tweaks
+recipes.remove(<appliedenergistics2:tile.BlockController>);
+recipes.remove(<appliedenergistics2:tile.BlockWireless>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:360>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:380>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:400>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 3, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:dustFluix>, <ore:dustFluix>, <ore:dustFluix>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+recipes.remove(<appliedenergistics2:tile.BlockInterface>);
+recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:item.ItemMultiMaterial:54>, <ore:blockGlass>], [<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>]]);
+recipes.remove(<appliedenergistics2:tile.BlockDrive>);
+recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>], [<ore:blockGlass>, <ore:chestWood>, <ore:blockGlass>], [<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>]]);
+recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
+recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [[<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:tile.BlockEnergyCell>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotIron>]]);
+recipes.remove(<appliedenergistics2:item.ToolMassCannon>);
+recipes.addShaped(<appliedenergistics2:item.ToolMassCannon>, [[<ore:ingotIron>, <ore:ingotIron>, <appliedenergistics2:item.ItemMultiMaterial:54>], [<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:tile.BlockEnergyCell>, null], [<ore:ingotIron>, null, null]]);
+recipes.remove(<appliedenergistics2:item.ToolWirelessTerminal>);
+recipes.addShaped(<appliedenergistics2:item.ToolWirelessTerminal>, [[<appliedenergistics2:item.ItemMultiMaterial:41>], [<appliedenergistics2:tile.BlockTerminal>], [<appliedenergistics2:tile.BlockEnergyCell>]]);

@@ -1,5 +1,6 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
+import mods.mekanism.chemical.Elementizer;
 
 val universalCable = <Mekanism:PartTransmitter:0>;
 val mechanicalPipe = <Mekanism:PartTransmitter:4>;
@@ -20,3 +21,6 @@ pipeRecipe(mechanicalPipe, <minecraft:bucket>);
 pipeRecipe(pressurizedTube, <ore:blockGlass>);
 pipeRecipe(logisticalTransporter, <ore:circuitBasic>);
 pipeRecipe(thermodynamicConductor, <ore:ingotCopper>);
+
+Elementizer.addFuel(<aether_legacy:zanite_gemstone>);
+Elementizer.RemoveFuel(<minecraft:diamond>);
