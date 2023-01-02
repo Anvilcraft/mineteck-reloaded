@@ -965,7 +965,7 @@
                 {
                     "id": "mod-cwg",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.3.0/cwg-1.3.0.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.4.0/cwg-1.4.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1049,7 +1049,7 @@
                 {
                     "id": "mod-atomicscience",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.0/atomicscience-1.1.0.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.1/atomicscience-1.1.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
