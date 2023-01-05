@@ -1,4 +1,4 @@
-import mods.mekanism.chemical.Elementizer;
+import mods.mekanism.Elementizer;
 
 recipes.remove(<ProjectE:item.pe_repair_talisman>);
 recipes.remove(<ProjectE:item.pe_divining_rod_1>);

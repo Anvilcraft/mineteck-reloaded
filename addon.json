@@ -578,7 +578,7 @@
       {
         "qualifier": "mod-modtweaker",
         "link": [
-          "https://git.tilera.org/api/packages/Anvilcraft/generic/modtweaker/0.10.0/ModTweaker2-0.10.0.jar"
+          "https://git.tilera.org/api/packages/Anvilcraft/generic/modtweaker/0.10.1/ModTweaker2-0.10.1.jar"
         ],
         "flags": {
           "both": ["required"]
