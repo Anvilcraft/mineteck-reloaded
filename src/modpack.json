@@ -349,7 +349,7 @@
                 {
                     "id": "mod-ee3",
                     "file": {
-                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.0/EquivalentExchange3-1.7.10-0.4.0.0.jar",
+                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.1/EquivalentExchange3-1.7.10-0.4.1.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1204,6 +1204,48 @@
                     "id": "mod-reliquary",
                     "file": {
                         "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/Reliquary-1.7.10-1.2.1.483.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-neiaddons",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2262/120/neiaddons-1.12.14.40-mc1.7.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-mousetweaks",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-lan",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2527/397/ServerPropertiesLAN-2.65-1.7.10.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
