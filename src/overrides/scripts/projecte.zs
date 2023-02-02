@@ -10,7 +10,7 @@ recipes.remove(<ProjectE:condenser_mk2>);
 recipes.remove(<ProjectE:item.pe_transmutation_tablet>);
 
 recipes.remove(<ProjectE:item.pe_philosophers_stone>);
-Elementizer.addOutput(<ProjectE:item.pe_philosophers_stone>);
+//Elementizer.addOutput(<ProjectE:item.pe_philosophers_stone>);
 
 recipes.remove(<ProjectE:collector_mk1>);
 recipes.addShaped(
