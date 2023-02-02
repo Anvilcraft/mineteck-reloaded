@@ -167,7 +167,7 @@
                 {
                     "id": "mod-appeng",
                     "file": {
-                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-18/appliedenergistics2-rv3-beta-18.jar",
+                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-20/appliedenergistics2-rv3-beta-20.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -279,7 +279,7 @@
                 {
                     "id": "mod-computercraft",
                     "file": {
-                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/ComputerCraft-1.75-rpinterop.jar",
+                        "link": "https://mediafiles.forgecdn.net/files/2269/339/ComputerCraft1.75.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -503,7 +503,7 @@
                 {
                     "id": "mod-mekanism",
                     "file": {
-                        "link": "https://git.tilera.org/api/packages/tilera/generic/mekanism/1.7.10-9.11.1/Mekanism-1.7.10-Community-Edition-1.7.10-9.11.1.jar",
+                        "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.0/Mekanism-1.7.10-9.12.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -531,7 +531,7 @@
                 {
                     "id": "mod-modtweaker",
                     "file": {
-                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/modtweaker/0.10.1/ModTweaker2-0.10.1.jar",
+                        "link": "https://maven.tilera.xyz/modtweaker/ModTweaker2/0.11.0/ModTweaker2-0.11.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -909,7 +909,7 @@
                 {
                     "id": "mod-redpower",
                     "file": {
-                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr7-dirty/RedPower-2.0pr7-dirty.jar",
+                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr8-dirty/RedPower-2.0pr8-dirty.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -965,7 +965,7 @@
                 {
                     "id": "mod-cwg",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.4.0/cwg-1.4.0.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.6.0/cwg-1.6.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1049,7 +1049,7 @@
                 {
                     "id": "mod-atomicscience",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.1/atomicscience-1.1.1.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.2/atomicscience-1.1.2.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1091,7 +1091,21 @@
                 {
                     "id": "mod-auracore",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.3.1/auracore-1.3.1.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.0/auracore-1.8.4.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
+                    "id": "mod-classiccasting",
+                    "file": {
+                        "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.2.0/classic-casting-1.2.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

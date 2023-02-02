@@ -19,8 +19,6 @@ function pipeRecipe(pipe as IItemStack, middleItem as IIngredient) {
 pipeRecipe(universalCable, <minecraft:redstone>);
 pipeRecipe(mechanicalPipe, <minecraft:bucket>);
 pipeRecipe(pressurizedTube, <ore:blockGlass>);
-pipeRecipe(logisticalTransporter, <ore:circuitBasic>);
-pipeRecipe(thermodynamicConductor, <ore:ingotCopper>);
 
 Elementizer.addFuel(<aether_legacy:zanite_gemstone>);
 Elementizer.removeFuel(<minecraft:diamond>);

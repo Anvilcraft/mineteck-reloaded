@@ -64,11 +64,8 @@ recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:7>, [<ore:cryst
 recipes.addShapeless(<appliedenergistics2:item.ItemMultiMaterial:8> * 2, [<ore:dustNetherQuartz>, <ore:dustCertusQuartz>, <ore:dustRedstone>]);
 
 // AE1 tweaks
-recipes.remove(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockWireless>);
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:360>);
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:380>);
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:400>);
+
 recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
 recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 3, [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>], [<ore:dustFluix>, <ore:dustFluix>, <ore:dustFluix>], [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 recipes.remove(<appliedenergistics2:tile.BlockInterface>);
