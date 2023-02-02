@@ -250,7 +250,7 @@
       {
         "qualifier": "mod-buildcraft",
         "link": [
-          "https://mediafiles.forgecdn.net/files/3538/651/buildcraft-7.1.24.jar"
+          "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/buildcraft-7.1.25.jar"
         ],
         "flags": {
           "both": ["required"]
