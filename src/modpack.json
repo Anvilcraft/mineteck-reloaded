@@ -349,7 +349,7 @@
                 {
                     "id": "mod-ee3",
                     "file": {
-                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.4.1/EquivalentExchange3-1.7.10-0.4.1.0.jar",
+                        "link": "https://git.tilera.org/api/packages/Anvilcraft/generic/ee3/0.5.0/EquivalentExchange3-1.7.10-0.5.0.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
