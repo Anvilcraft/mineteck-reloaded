@@ -1049,7 +1049,7 @@
                 {
                     "id": "mod-atomicscience",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.2/atomicscience-1.1.2.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/atomicscience/1.1.3/atomicscience-1.1.3.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
