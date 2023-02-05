@@ -993,7 +993,7 @@
                 {
                     "id": "mod-universalelectricity",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.1/universalelectricity-5.1.1.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.0/universalelectricity-5.2.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

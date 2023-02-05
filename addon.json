@@ -1073,7 +1073,7 @@
       {
         "qualifier": "mod-universalelectricity",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.1.1/universalelectricity-5.1.1.jar"
+          "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.0/universalelectricity-5.2.0.jar"
         ],
         "flags": {
           "both": ["required"]
