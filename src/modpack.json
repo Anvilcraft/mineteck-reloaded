@@ -4,7 +4,7 @@
     "id": "mineteck-reloaded",
     "versions": [
         {
-            "version": "1.0.0-beta.1",
+            "version": "1.0.0-beta.2",
             "versionid": -1,
             "mcversion": [
                 "1.7.10"
@@ -167,7 +167,7 @@
                 {
                     "id": "mod-appeng",
                     "file": {
-                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-20/appliedenergistics2-rv3-beta-20.jar",
+                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-21/appliedenergistics2-rv3-beta-21.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -993,7 +993,7 @@
                 {
                     "id": "mod-universalelectricity",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.0/universalelectricity-5.2.0.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/universalelectricity/5.2.2/universalelectricity-5.2.2.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1035,7 +1035,7 @@
                 {
                     "id": "mod-assemblyline",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.1/assemblyline-1.0.1.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/assemblyline/1.0.2/assemblyline-1.0.2.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-mffs",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.5/mffs-1.0.5.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.6/mffs-1.0.6.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1091,7 +1091,7 @@
                 {
                     "id": "mod-auracore",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.5/auracore-1.8.5.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/auracore/1.8.7/auracore-1.8.7.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
