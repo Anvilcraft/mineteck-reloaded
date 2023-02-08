@@ -921,20 +921,6 @@
                     ]
                 },
                 {
-                    "id": "mod-powercraft",
-                    "file": {
-                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/powercraft-0.1.0B.jar",
-                        "installer": "internal.dir:mods"
-                    },
-                    "type": "mod",
-                    "options": [
-                        "server",
-                        "client",
-                        "required",
-                        "included"
-                    ]
-                },
-                {
                     "id": "mod-projectbench",
                     "file": {
                         "link": "https://mediafilez.forgecdn.net/files/2239/653/ProjectBench-Update-1.7.10-0.5.jar",
