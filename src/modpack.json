@@ -1271,6 +1271,20 @@
                     ]
                 },
                 {
+                    "id": "mod-loadingscreen",
+                    "file": {
+                        "link": "https://mediafilez.forgecdn.net/files/2414/751/BetterLoadingScreen-1.3.10.jar",
+                        "installer": "internal.dir:mods"
+                    },
+                    "type": "mod",
+                    "options": [
+                        "server",
+                        "client",
+                        "required",
+                        "included"
+                    ]
+                },
+                {
                     "id": "mod-liteloader",
                     "file": {
                         "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00liteloader-1.7.10.jar",
