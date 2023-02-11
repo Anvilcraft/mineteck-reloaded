@@ -503,7 +503,7 @@
                 {
                     "id": "mod-mekanism",
                     "file": {
-                        "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.0/Mekanism-1.7.10-9.12.0.jar",
+                        "link": "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.1/Mekanism-1.7.10-9.12.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
