@@ -548,7 +548,7 @@
       {
         "qualifier": "mod-mekanism",
         "link": [
-          "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.12.1/Mekanism-1.7.10-9.12.1.jar"
+          "https://maven.tilera.xyz/mekanism/Mekanism/1.7.10-9.13.0/Mekanism-1.7.10-9.13.0.jar"
         ],
         "flags": {
           "both": ["required"]
