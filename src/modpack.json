@@ -167,7 +167,7 @@
                 {
                     "id": "mod-appeng",
                     "file": {
-                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-21/appliedenergistics2-rv3-beta-21.jar",
+                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-22/appliedenergistics2-rv3-beta-22.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -951,7 +951,7 @@
                 {
                     "id": "mod-cwg",
                     "file": {
-                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.6.0/cwg-1.6.0.jar",
+                        "link": "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.0/cwg-1.7.0.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.5/icbm-1.0.5.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.6/icbm-1.0.6.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

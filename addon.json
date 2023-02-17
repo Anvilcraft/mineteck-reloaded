@@ -190,7 +190,7 @@
       {
         "qualifier": "mod-appeng",
         "link": [
-          "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-21/appliedenergistics2-rv3-beta-21.jar"
+          "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-22/appliedenergistics2-rv3-beta-22.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1028,7 +1028,7 @@
       {
         "qualifier": "mod-cwg",
         "link": [
-          "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.6.0/cwg-1.6.0.jar"
+          "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.0/cwg-1.7.0.jar"
         ],
         "flags": {
           "both": ["required"]
@@ -1148,7 +1148,7 @@
       {
         "qualifier": "mod-icbm",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.5/icbm-1.0.5.jar"
+          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.6/icbm-1.0.6.jar"
         ],
         "flags": {
           "both": ["required"]
