@@ -1,3 +1,4 @@
+<minecraft:red_flower>.displayName = "Rose";
 recipes.addShapeless(<RedPowerBase:alloy:1> * 9, [<Tubestuff:storage:6>]);
 recipes.addShapeless(<Tubestuff:storage:6>, [<RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>, <RedPowerBase:alloy:1>]);
 recipes.addShapeless(<RedPowerBase:alloy> * 9, [<Tubestuff:storage:7>]);
