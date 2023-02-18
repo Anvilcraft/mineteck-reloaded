@@ -1145,20 +1145,6 @@
                     ]
                 },
                 {
-                    "id": "mod-tinycarts",
-                    "file": {
-                        "link": "http://immibis.com/mcmoddl/files/tinycarts-0.2.jar",
-                        "installer": "internal.dir:mods"
-                    },
-                    "type": "mod",
-                    "options": [
-                        "server",
-                        "client",
-                        "required",
-                        "included"
-                    ]
-                },
-                {
                     "id": "mod-gravitygun",
                     "file": {
                         "link": "https://mediafilez.forgecdn.net/files/2233/777/GravityGun-4.0.0-beta.jar",

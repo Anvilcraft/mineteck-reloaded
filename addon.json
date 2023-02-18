@@ -1236,21 +1236,6 @@
         ]
       },
       {
-        "qualifier": "mod-tinycarts",
-        "link": [
-          "http://immibis.com/mcmoddl/files/tinycarts-0.2.jar"
-        ],
-        "flags": {
-          "both": ["required"]
-        },
-        "install": [
-          {
-            "action": "move",
-            "args": ["./mods"]
-          }
-        ]
-      },
-      {
         "qualifier": "mod-gravitygun",
         "link": [
           "https://mediafilez.forgecdn.net/files/2233/777/GravityGun-4.0.0-beta.jar"
