@@ -909,7 +909,7 @@
                 {
                     "id": "mod-redpower",
                     "file": {
-                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr8-dirty/RedPower-2.0pr8-dirty.jar",
+                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr9-dirty/RedPower-2.0pr9-dirty.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

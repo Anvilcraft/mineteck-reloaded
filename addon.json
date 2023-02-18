@@ -983,7 +983,7 @@
       {
         "qualifier": "mod-redpower",
         "link": [
-          "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr8-dirty/RedPower-2.0pr8-dirty.jar"
+          "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr9-dirty/RedPower-2.0pr9-dirty.jar"
         ],
         "flags": {
           "both": ["required"]
