@@ -1028,7 +1028,7 @@
       {
         "qualifier": "mod-cwg",
         "link": [
-          "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.0/cwg-1.7.0.jar"
+          "https://maven.tilera.xyz/dev/tilera/modding/cwg/1.7.1/cwg-1.7.1.jar"
         ],
         "flags": {
           "both": ["required"]
