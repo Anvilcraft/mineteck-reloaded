@@ -167,7 +167,7 @@
                 {
                     "id": "mod-appeng",
                     "file": {
-                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-22/appliedenergistics2-rv3-beta-22.jar",
+                        "link": "https://maven.tilera.xyz/appeng/appliedenergistics2/rv3-beta-23/appliedenergistics2-rv3-beta-23.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -909,7 +909,7 @@
                 {
                     "id": "mod-redpower",
                     "file": {
-                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr9-dirty/RedPower-2.0pr9-dirty.jar",
+                        "link": "https://maven.tilera.xyz/com/eloraam/redpower/RedPower/2.0pr10-dirty/RedPower-2.0pr10-dirty.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1007,7 +1007,7 @@
                 {
                     "id": "mod-electricexpansion",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.1/electricexpansion-1.0.1.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/electricexpansion/1.0.2/electricexpansion-1.0.2.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1049,7 +1049,7 @@
                 {
                     "id": "mod-mffs",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.7/mffs-1.0.7.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/mffs/1.0.8/mffs-1.0.8.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.6/icbm-1.0.6.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.7/icbm-1.0.7.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
