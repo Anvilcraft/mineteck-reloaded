@@ -1311,6 +1311,21 @@
         ]
       },
       {
+        "qualifier": "mod-archaicfix",
+        "link": [
+          "https://mediafilez.forgecdn.net/files/4405/338/archaicfix-0.5.0.jar"
+        ],
+        "flags": {
+          "both": ["required"]
+        },
+        "install": [
+          {
+            "action": "move",
+            "args": ["./mods"]
+          }
+        ]
+      },
+      {
         "qualifier": "mod-mousetweaks",
         "link": [
           "https://mediafilez.forgecdn.net/files/2209/265/MouseTweaks-2.4.4-mc1.7.10.jar"
