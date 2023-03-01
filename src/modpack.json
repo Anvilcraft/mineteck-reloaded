@@ -965,7 +965,7 @@
                 {
                     "id": "mod-mixins",
                     "file": {
-                        "link": "https://cdn.tilera.xyz/minecraft/mods/mtreloaded/00gasstation-mc1.7.10-0.3.5.jar",
+                        "link": "https://mediafilez.forgecdn.net/files/4399/569/_unimixins-all-1.7.10-0.1.4.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
