@@ -363,7 +363,7 @@
                 {
                     "id": "mod-factorization",
                     "file": {
-                        "link": "https://mediafiles.forgecdn.net/files/2990/432/Factorization-1.7.10-0.8.108+(Unofficial).jar",
+                        "link": "https://cdn.modrinth.com/data/XmseIqaa/versions/0.8.109/Factorization-1.7.10-0.8.109.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",
