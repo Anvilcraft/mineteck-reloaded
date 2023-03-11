@@ -11,7 +11,7 @@ val thermodynamicConductor = <Mekanism:PartTransmitter:18>;
 function pipeRecipe(pipe as IItemStack, middleItem as IIngredient) {
     recipes.remove(pipe);
     recipes.addShaped(
-        pipe,
+        pipe * 8,
         [[<ore:ingotOsmium>, middleItem, <ore:ingotOsmium>]]
     );
 }
