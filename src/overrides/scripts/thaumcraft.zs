@@ -92,6 +92,8 @@ Research.addPrereq("DISTILESSENTIA", "BASICFLUX");
 Research.addPrereq("INFUSION", "THETHEORYOFEVERYTHING", true);
 Research.clearPrereqs("JARLABEL");
 Research.addPrereq("JARLABEL", "UNIFIEDTHAUMICFIELDTHEORY");
+Research.setAspects("JARLABEL", "vitreus 16, vinculum 16, vacuos 16, tutamen 8");
+Research.setStub("JARLABEL", false);
 Arcane.removeRecipe(<Thaumcraft:ItemResource:8>);
 Research.clearPages("DISTILESSENTIA");
 Research.addPage("DISTILESSENTIA", "tc.research_page.DISTILESSENTIA.1");
