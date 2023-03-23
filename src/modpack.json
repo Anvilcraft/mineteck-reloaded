@@ -1063,7 +1063,7 @@
                 {
                     "id": "mod-icbm",
                     "file": {
-                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.7/icbm-1.0.7.jar",
+                        "link": "https://maven.tilera.xyz/universalelectricity/icbm/1.0.8/icbm-1.0.8.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

@@ -1148,7 +1148,7 @@
       {
         "qualifier": "mod-icbm",
         "link": [
-          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.7/icbm-1.0.7.jar"
+          "https://maven.tilera.xyz/universalelectricity/icbm/1.0.8/icbm-1.0.8.jar"
         ],
         "flags": {
           "both": ["required"]
