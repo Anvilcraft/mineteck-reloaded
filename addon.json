@@ -4,7 +4,7 @@
     },
     "id": "mineteck-reloaded",
     "namespace": "net.anvilcraft",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "flags": {
       "both": ["required", "instance"]
     },
