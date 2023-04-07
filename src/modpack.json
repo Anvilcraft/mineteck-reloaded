@@ -1091,7 +1091,7 @@
                 {
                     "id": "mod-classiccasting",
                     "file": {
-                        "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.0/classic-casting-1.4.0.jar",
+                        "link": "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.1/classic-casting-1.4.1.jar",
                         "installer": "internal.dir:mods"
                     },
                     "type": "mod",

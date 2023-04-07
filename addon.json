@@ -1178,7 +1178,7 @@
       {
         "qualifier": "mod-classiccasting",
         "link": [
-          "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.0/classic-casting-1.4.0.jar"
+          "https://maven.tilera.xyz/net/anvilcraft/classic-casting/1.4.1/classic-casting-1.4.1.jar"
         ],
         "flags": {
           "both": ["required"]
